@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Bank inside</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-6 center">
+        Let's get some
+        <span class="font-bold text-violet-600 money">Moooooooney</span>!!!
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div class="grid-cols-3 w-9/12 mx-auto section flex">
+          <div class="diposite">
+            <h2>diposite</h2>
+            <h2>$<span id="diposite-amount-show">00</span></h2>
+          </div>
+          <div class="withdrow">
+            <h2>withdrow</h2>
+            <h2>$<span id="withdrow-amount-show">00</span></h2>
+          </div>
+          <div class="balance">
+            <h2>balance</h2>
+            <h2>$<span id="balance-amount-show">1200</span></h2>
+          </div>
+        </div>
+      </section>
+      <!-- add or substract -->
+      <section>
+        <div class="flex section">
+          <div class="diposite">
+            <div class="p">
+              <h4 class="block">plese diposite</h4>
+              <input
+                type="text"
+                placeholder="plese enter the amount you want to diposite"
+                class="block field"
+                id="diposite-input"
+              />
+              <button class="block btn" id="diposite-btn">diposite</button>
+            </div>
+          </div>
+          <div class="withdrow">
+            <div class="p">
+              <h4 class="block">plese withdrow</h4>
+              <input
+                type="text"
+                placeholder="plese enter the amount you want to withdrow"
+                class="block field"
+                id="withdrow-input"
+              />
+              <button class="block btn" id="withdrow-btn">withdrow</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- scripts -->
+    <script src="js/diposite.js"></script>
+    <script src="js/withdrow.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.section {
+    width: 75vw;
+    margin: 30px auto;
+
+}
+
+.diposite {
+    background-color: lightblue;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.withdrow {
+    background-color: lightcoral;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.balance {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.block {
+    display: block;
+}
+
+.field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.p {
+    padding: 20px 40px;
+}
+
+.btn {
+    background-color: rgb(65, 65, 183);
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: darkblue;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+.money {
+    color: rgb(52, 115, 192);
+}
